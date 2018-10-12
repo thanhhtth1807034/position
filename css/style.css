@@ -42,14 +42,15 @@ section{
 	padding-top: 20px;
 }
 main{
-	
+	border: black 1.5px solid;
 	background-color: white;
-	height: auto;
 	position: absolute;
 	top: 250px;
 	z-index: 1;
 }
 content{
+	
+	height: 300px;
 	width:20% ;
 	float: left;
 	margin:10px 0 10px 130px;
@@ -63,6 +64,18 @@ a{
 	font-size: 25px;
 	color: #1769b1;
 }
+footer{
+	border: black 1.5px solid;
+	background-color: #599acd;
+	height:30px;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	width: 100%;
+}
 
 #scroll-to-top{
 	position: fixed;
@@ -70,7 +83,7 @@ a{
     right: 0;
     color: #252121cf;
     display: block;
-    width: 100px;
+    width: 120px;
     height: 35px;
     text-align: center;
     border:black 1.5px solid;
@@ -81,14 +94,3 @@ a{
 }
 
 
-footer{
-	border: black 1.5px solid;
-	background-color: #599acd;
-	height:50px;
-	text-align: center;
-	color: white;
-	position: fixed;
-	bottom: 0;
-	z-index: 1;
-	width: 100%;
-}
